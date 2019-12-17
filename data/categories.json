@@ -1,0 +1,35 @@
+[   
+    {
+        "name":"Mens",
+        "imageUrl":"https://i.pinimg.com/236x/cf/41/3a/cf413acad92076cd706d9fe6ffddffd0.jpg"
+    },
+    {
+        "name":"womens",
+        "imageUrl":"https://i.pinimg.com/236x/70/66/39/7066396688329f8b6603757105a00cc5.jpg"
+    },
+    {
+        "name":"underwear",
+        "imageUrl":"https://i.pinimg.com/236x/1b/98/90/1b9890f1a1ac7fc7dea20e6d3349a0ab.jpg"
+    },
+    {
+        "name":"wedding dresses",
+        "imageUrl":"https://i.pinimg.com/236x/1e/4f/5e/1e4f5e15098e3115bcc1d7ad26d0e4b7.jpg"
+    },
+    {
+        "name":"jerewly",
+        "imageUrl":"https://i.pinimg.com/236x/b5/bc/94/b5bc944fed7e7231419b49c7b646af0d.jpg"
+     },
+     {
+        "name":"dresses",
+        "imageUrl":"https://i.pinimg.com/236x/17/3d/9a/173d9a45b4af2cd5497c98defe4eef65.jpg"
+     },
+     {
+        "name":"winter",
+        "imageUrl":"https://i.pinimg.com/236x/13/7d/11/137d1110bde7cb93c6178b582a3711a3.jpg"
+     },
+     {
+        "name":"shoes",
+        "imageUrl":"https://i.pinimg.com/236x/b3/b6/d3/b3b6d3323579ca570b21d8ae0ce77c04.jpg"
+     }
+       
+]
