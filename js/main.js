@@ -25,7 +25,7 @@ $( document ).ready(function() {
                 $('.products').append('<div class="col-md-4 product">'+
                                         '<a href="#">'+
                                             '<img src="'+ p.imageUrl +'" alt="'+ p.name +'">' +
-                                            '<h2>'+ p.name +'</h2>' +
+                                            '<h4>'+ p.name +'</h4>' +
                                             '<p class="price">'+ p.price +'</p>' +
                                         '</a>' +
                                     '</div>')
