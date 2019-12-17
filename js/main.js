@@ -9,7 +9,9 @@ $('.slider-one')
     nextArrow: ".site-slider .slider-btn .next"
 });
 
-$.getJSON('../data/categories.json', function(data){
+
+$.getJSON('https://github.com/klarv2/ecommerce-html-css-js/blob/master/db.json', function(data){
+    data.header('Access-Control-Allow-Origin', '*');
     $.each(data, function(i, c){
         
         console.log(data)
