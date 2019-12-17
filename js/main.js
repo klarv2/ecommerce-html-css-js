@@ -21,15 +21,14 @@ $( document ).ready(function() {
       });
 
         $.getJSON('https://my-json-server.typicode.com/klarv2/ecommerce-html-css-js/db', function(data){
-            console.log(data)
-            $.each(data, function(i, p){
-                $('.products').append('<a href="#">'+
-                                        '<div class="col-md-4 product">'+
+             $.each(data.products, function(i, p){
+                $('.products').append('<div class="col-md-4 product">'+
+                                        '<a href="#">'+
                                             '<img src="'+ p.imageUrl +'" alt="'+ p.name +'">' +
                                             '<h2>'+ p.name +'</h2>' +
                                             '<p class="price">'+ p.price +'</p>' +
-                                        '</div>' +
-                                    '</a>')
+                                        '</a>' +
+                                    '</div>')
             
         });
     })

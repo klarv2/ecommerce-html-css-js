@@ -158,3 +158,8 @@ header{
     background-color: var(--primary-color) ;
     color: var(--white);
 }
+
+.products .product{
+    display: inline-flex;
+
+}
